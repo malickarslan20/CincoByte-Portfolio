@@ -13,82 +13,81 @@ const Team = () => {
       controls.start("visible");
     }
   }, [isInView, controls]);
+const team = [
+  {
+    name: 'Shayan Mirza',
+    role: 'CEO & Co-Founder',
+    image: '/Images/Shayan.jpg',
+    bio: 'Build powerful, scalable, and efficient solutions with Python.',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-purple-500 to-pink-500'
+  },
+  {
+    name: 'Zia Ur Rehmman',
+    role: ' Co-Founder & Web Developer with Laravel',
+    image: '/Images/Zia.jpg',
+    bio: 'Full-stack architect passionate about scalable solutions with Laravel.',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-cyan-500 to-blue-500'
+  },
+  {
+    name: 'Kashif Ur Rehman',
+    role: 'Senior MERN  Developer',
+    image: '/Images/Kashif.jpg',
+    bio: 'Senior developer with expertise in React, Node.js, and cloud architecture.',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-emerald-500 to-teal-500'
+  },
+  {
+    name: 'Sheryar Yousaf',
+    role: 'Flutter Developer',
+    image: '/Images/Sheryar.jpg',
+    bio: 'Build fast, beautiful, and cross-platform mobile apps with Flutter.',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-pink-500 to-rose-500'
+  },
+  {
+    name: 'Malick Arslan',
+    role: 'Frontend Developer',
+    image: '/Images/Arslan.jpg',
+    bio: 'Craft responsive, user-friendly interfaces using modern frontend technologies like React, Vue, and Tailwind CSS..',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-indigo-500 to-purple-500'
+  },
+  {
+    name: 'Talha Ayyaz',
+    role: 'Dart-Powered App Creator',
+    image: '/Images/Talha.jpg',
+    bio: 'Create high-performance cross-platform apps using Flutter and Dart for seamless Android and iOS experiences.',
+    social: {
+      linkedin: '#',
+      twitter: '#',
+      github: '#'
+    },
+    gradient: 'from-orange-500 to-red-500'
+  }
+];
 
-  const team = [
-    {
-      name: 'Shayan Mirza',
-      role: 'CEO & Co-Founder',
-      image: 'src/Images/Shayan.jpg',
-      bio: 'Build powerful, scalable, and efficient solutions with Python.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-purple-500 to-pink-500'
-    },
-    {
-      name: 'Zia Ur Rehmman',
-      role: ' Co-Founder & Web Developer with Laravel',
-      image: 'src/Images/Zia.jpg',
-      bio: 'Full-stack architect passionate about scalable solutions with Laravel.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-cyan-500 to-blue-500'
-    },
-    {
-      name: 'Kashif Ur Rehman',
-      role: 'Senior MERN  Developer',
-      image: 'src/Images/Kashif.jpg',
-      bio: 'Senior developer with expertise in React, Node.js, and cloud architecture.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-emerald-500 to-teal-500'
-    },
-    {
-      name: 'Sheryar Yousaf',
-      role: 'Flutter Developer',
-      image: 'src/Images/Sheryar.jpg',
-      bio: 'Build fast, beautiful, and cross-platform mobile apps with Flutter.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-pink-500 to-rose-500'
-    },
-    
-    {
-      name: 'Malick Arslan',
-      role: 'Frontend Developer',
-      image: 'src/Images/Arslan.jpg',
-      bio: 'Craft responsive, user-friendly interfaces using modern frontend technologies like React, Vue, and Tailwind CSS..',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-indigo-500 to-purple-500'
-    },
-    {
-      name: 'Talha Ayyaz',
-      role: 'Dart-Powered App Creator',
-      image: 'src/Images/Talha.jpg',
-      bio: 'Create high-performance cross-platform apps using Flutter and Dart for seamless Android and iOS experiences.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      },
-      gradient: 'from-orange-500 to-red-500'
-    }
-  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },

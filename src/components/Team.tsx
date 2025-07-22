@@ -19,7 +19,7 @@ const Team: React.FC = () => {
     {
       name: 'Shayan Mirza',
       role: 'CEO & Co-Founder',
-      image: '/Images/Shayan.jpg',
+      image: '/images/Shayan.jpg',
       bio: 'Build powerful, scalable, and efficient solutions with Python.',
       social: {
         linkedin: '#',
@@ -30,9 +30,9 @@ const Team: React.FC = () => {
     },
     {
       name: 'Zia Ur Rehmman',
-      role: 'Co-Founder & Web Developer with Laravel',
-      image: '/Images/Zia.jpg',
-      bio: 'Full-stack architect passionate about scalable solutions with Laravel.',
+      role: 'Co-Founder & Web Developer with Django',
+      image: '/images/Zia.jpg',
+      bio: 'Full-stack architect passionate about scalable solutions with Django.',
       social: {
         linkedin: '#',
         twitter: '#',
@@ -43,7 +43,7 @@ const Team: React.FC = () => {
     {
       name: 'Kashif Ur Rehman',
       role: 'Senior MERN Developer',
-      image: '/Images/Kashif.jpg',
+      image: '/images/Kashif.jpg',
       bio: 'Senior developer with expertise in React, Node.js, and cloud architecture.',
       social: {
         linkedin: '#',
@@ -55,7 +55,7 @@ const Team: React.FC = () => {
     {
       name: 'Sheryar Yousaf',
       role: 'Flutter Developer',
-      image: '/Images/Sheryar.jpg',
+      image: '/images/Sheryar.jpg',
       bio: 'Build fast, beautiful, and cross-platform mobile apps with Flutter.',
       social: {
         linkedin: '#',
@@ -67,7 +67,7 @@ const Team: React.FC = () => {
     {
       name: 'Malick Arslan',
       role: 'Frontend Developer',
-      image: '/Images/Arslan.jpg',
+      image: '/images/Arslan.jpg',
       bio: 'Craft responsive, user-friendly interfaces using modern frontend technologies like React, Vue, and Tailwind CSS.',
       social: {
         linkedin: '#',
@@ -79,7 +79,7 @@ const Team: React.FC = () => {
     {
       name: 'Talha Ayyaz',
       role: 'Dart-Powered App Creator',
-      image: '/Images/Talha.jpg',
+      image: '/images/Talha.jpg',
       bio: 'Create high-performance cross-platform apps using Flutter and Dart for seamless Android and iOS experiences.',
       social: {
         linkedin: '#',

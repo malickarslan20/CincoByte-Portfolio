@@ -30,7 +30,7 @@ const team = [
     name: 'Zia Ur Rehmman',
     role: ' Co-Founder & Web Developer with Django',
     image: '/images/Zia.jpg',
-    bio: 'Full-stack architect passionate about scalable solutions with Laravel.',
+    bio: 'Full-stack architect passionate about scalable solutions with Django.',
     social: {
       linkedin: '#',
       twitter: '#',

@@ -1,74 +1,93 @@
 import React from 'react';
 import { Linkedin, Twitter, Github } from 'lucide-react';
 
-const Team = () => {
-  const team = [
+interface TeamMember {
+  name: string;
+  role: string;
+  image: string;
+  bio: string;
+  social: {
+    linkedin: string;
+    twitter: string;
+    github: string;
+  };
+  gradient: string;
+}
+
+const Team: React.FC = () => {
+  const team: TeamMember[] = [
     {
-      name: 'Sarah Chen',
+      name: 'Shayan Mirza',
       role: 'CEO & Co-Founder',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Strategic leader with 12+ years in tech, driving innovation and business growth.',
+      image: '/Images/Shayan.jpg',
+      bio: 'Build powerful, scalable, and efficient solutions with Python.',
       social: {
         linkedin: '#',
         twitter: '#',
-        github: '#'
-      }
+        github: '#',
+      },
+      gradient: 'from-purple-500 to-pink-500',
     },
     {
-      name: 'Marcus Rodriguez',
-      role: 'CTO & Co-Founder',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Full-stack architect passionate about scalable solutions and emerging technologies.',
+      name: 'Zia Ur Rehmman',
+      role: 'Co-Founder & Web Developer with Laravel',
+      image: '/Images/Zia.jpg',
+      bio: 'Full-stack architect passionate about scalable solutions with Laravel.',
       social: {
         linkedin: '#',
         twitter: '#',
-        github: '#'
-      }
+        github: '#',
+      },
+      gradient: 'from-cyan-500 to-blue-500',
     },
     {
-      name: 'Emily Johnson',
-      role: 'Head of Design',
-      image: 'https://images.pexels.com/photos/3861961/pexels-photo-3861961.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Creative visionary specializing in user experience and brand identity design.',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        github: '#'
-      }
-    },
-    {
-      name: 'David Kim',
-      role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=400',
+      name: 'Kashif Ur Rehman',
+      role: 'Senior MERN Developer',
+      image: '/Images/Kashif.jpg',
       bio: 'Senior developer with expertise in React, Node.js, and cloud architecture.',
       social: {
         linkedin: '#',
         twitter: '#',
-        github: '#'
-      }
+        github: '#',
+      },
+      gradient: 'from-emerald-500 to-teal-500',
     },
     {
-      name: 'Lisa Thompson',
-      role: 'Project Manager',
-      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Agile expert ensuring seamless project delivery and client satisfaction.',
+      name: 'Sheryar Yousaf',
+      role: 'Flutter Developer',
+      image: '/Images/Sheryar.jpg',
+      bio: 'Build fast, beautiful, and cross-platform mobile apps with Flutter.',
       social: {
         linkedin: '#',
         twitter: '#',
-        github: '#'
-      }
+        github: '#',
+      },
+      gradient: 'from-pink-500 to-rose-500',
     },
     {
-      name: 'Alex Parker',
-      role: 'DevOps Engineer',
-      image: 'https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Infrastructure specialist focused on automation, security, and scalability.',
+      name: 'Malick Arslan',
+      role: 'Frontend Developer',
+      image: '/Images/Arslan.jpg',
+      bio: 'Craft responsive, user-friendly interfaces using modern frontend technologies like React, Vue, and Tailwind CSS.',
       social: {
         linkedin: '#',
         twitter: '#',
-        github: '#'
-      }
-    }
+        github: '#',
+      },
+      gradient: 'from-indigo-500 to-purple-500',
+    },
+    {
+      name: 'Talha Ayyaz',
+      role: 'Dart-Powered App Creator',
+      image: '/Images/Talha.jpg',
+      bio: 'Create high-performance cross-platform apps using Flutter and Dart for seamless Android and iOS experiences.',
+      social: {
+        linkedin: '#',
+        twitter: '#',
+        github: '#',
+      },
+      gradient: 'from-orange-500 to-red-500',
+    },
   ];
 
   return (

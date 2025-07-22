@@ -193,7 +193,7 @@ const Contact = () => {
       rel="noopener noreferrer"
       className="text-blue-600 hover:underline"
     >
-      123 Innovation Street, Tech City, TC 12345
+      Old Civil Lines, Sargodha, Pakistan
     </a>
     <p className="text-sm text-gray-500 mt-2">Click to view on Google Maps</p>
   </div>

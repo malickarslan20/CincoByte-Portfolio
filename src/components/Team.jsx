@@ -17,7 +17,7 @@ const team = [
   {
     name: 'Shayan Mirza',
     role: 'CEO & Co-Founder',
-    image: '/images/Shayan.jpg',
+    image: '/Shayan.jpg',
     bio: 'Build powerful, scalable, and efficient solutions with Python.',
     social: {
       linkedin: '#',
@@ -29,7 +29,7 @@ const team = [
   {
     name: 'Zia Ur Rehmman',
     role: ' Co-Founder & Web Developer with Django',
-    image: '/images/Zia.jpg',
+    image: '/Zia.jpg',
     bio: 'Full-stack architect passionate about scalable solutions with Django.',
     social: {
       linkedin: '#',
@@ -40,8 +40,8 @@ const team = [
   },
   {
     name: 'Kashif Ur Rehman',
-    role: 'Senior MERN  Developer',
-    image: '/images/Kashif.jpg',
+    role: 'CTO & Senior MERN  Developer',
+    image: '/Kashif.jpg',
     bio: 'Senior developer with expertise in React, Node.js, and cloud architecture.',
     social: {
       linkedin: '#',
@@ -53,7 +53,7 @@ const team = [
   {
     name: 'Sheryar Yousaf',
     role: 'Flutter Developer',
-    image: '/images/Sheryar.jpg',
+    image: '/Sheryar.jpg',
     bio: 'Build fast, beautiful, and cross-platform mobile apps with Flutter.',
     social: {
       linkedin: '#',
@@ -65,7 +65,7 @@ const team = [
   {
     name: 'Malick Arslan',
     role: 'Frontend Developer',
-    image: '/images/Arslan.jpg',
+    image: '/Arslan.jpg',
     bio: 'Craft responsive, user-friendly interfaces using modern frontend technologies like React, Vue, and Tailwind CSS..',
     social: {
       linkedin: '#',
@@ -77,7 +77,7 @@ const team = [
   {
     name: 'Talha Ayyaz',
     role: 'Dart-Powered App Creator',
-    image: '/images/Talha.jpg',
+    image: '/Talha.jpg',
     bio: 'Create high-performance cross-platform apps using Flutter and Dart for seamless Android and iOS experiences.',
     social: {
       linkedin: '#',
